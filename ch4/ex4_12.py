@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import statistics
 
-from ex4_7 import BernoulliBandit
-from ex4_8 import follow_the_leader
+from .ex4_7 import BernoulliBandit
+from .ex4_8 import follow_the_leader
 
 if __name__ == '__main__':
     trials = [i*100 for i in range(1, 11)]
