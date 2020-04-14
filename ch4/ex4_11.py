@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-from .ex4_7 import BernoulliBandit
-from .ex4_8 import follow_the_leader
+from ex4_7 import BernoulliBandit
+from ex4_8 import follow_the_leader
 
 if __name__ == '__main__':
     results = []
